@@ -324,17 +324,6 @@ h1 {
     color: var(--text-color);
 }
 
-.bottom {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    font-size: x-large;
-    text-align: center;
-    color: var(--text-color);
-    background-color: var(--bg-secondary);
-}
-
 /* Contact Form Container */
 .contact-form {
     width: 100%;
@@ -431,6 +420,17 @@ h1 {
     cursor: not-allowed;
 }
 
+.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: x-large;
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--bg-secondary);
+}
+
 /* Responsive Design */
 /* Responsive Adjustments */
 
@@ -499,5 +499,9 @@ h1 {
     .side_right  .skills_section  ul li img {
         width: 50px;
         height: 50px;
+    }
+    .bottom {
+        font-size: small;
+
     }
 }
