@@ -319,6 +319,13 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.img5 {
+    background: url("./img/tessa_2024-11-13\ 11-17-57.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .prt_link {
     text-decoration: none;
     color: var(--text-color);
