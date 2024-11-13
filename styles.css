@@ -468,6 +468,7 @@ h1 {
     }
     .side_right .about_section p {
         font-size: large;
+        margin-left: 0;
     }
     .container .projects_section {
         width: 100%;
