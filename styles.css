@@ -272,11 +272,14 @@ h1 {
 
 .side_left .info_card .image {
     width: 100%;
+    margin-top: 20px;
     margin-bottom: 20px;
     animation: float 3s ease-in-out infinite;
 }
 
 .side_left .info_card .image img {
+     border-radius: 50%;
+     width: 80%;
     }
     .projects-grid {
         grid-template-columns: 1fr;
@@ -292,9 +295,8 @@ h1 {
         text-align: center;
         font-size: 1.3rem;
     border: 4px solid transparent;
-    /* background: var(--accent-gradient); */
     padding: 4px;
-    /* border-radius: 50%; */
+    border-radius: 2%;
     width: 200px;
     /* height: 200px; */
     object-fit: cover;
