@@ -3,14 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abraham Kingoo - Full-stack Software Engineer specializing in backend systems, scalable architecture, and API design. Based in Kisumu, Kenya.">
+    <meta name="keywords" content="Abraham Kingoo, Software Engineer, Backend Developer, Full Stack, Go, Golang, JavaScript, TypeScript, React, Node.js, Kisumu, Kenya">
+    <meta name="author" content="Abraham Maiko Kingoo">
+    <meta property="og:title" content="Abraham Kingoo - Software Engineer Portfolio">
+    <meta property="og:description" content="Full-stack Software Engineer specializing in backend systems and scalable architecture">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://abrakingoo.github.io">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Abraham Kingoo - Software Engineer">
+    <meta name="twitter:description" content="Full-stack Software Engineer specializing in backend systems and scalable architecture">
+    <meta name="theme-color" content="#6366f1">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
-    <title>Abraham Kingoo - Portfolio</title>
+    <title>Abraham Kingoo - Software Engineer Portfolio</title>
+    <!-- Google Analytics - Add your tracking ID below -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script> -->
+    <!-- <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script> -->
 </head>
 <body>
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+        <div class="nav-container">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="sides">
             <!-- Left side with personal info -->
@@ -23,7 +57,8 @@
                         <img src="img/profile.png" alt="Abraham Kingoo's Profile Picture">
                     </div>
                     <!-- Personal information section -->
-                        <p>Full-Stack Software Developer</p>
+                        <p>Software Engineer </p>
+                        <p>(Backend & System Architecture Focus)</p>
                         <p>Company: Zone01 Kisumu</p>
                         <p>Location: Kisumu, Kenya</p>
                     </div>
@@ -41,9 +76,10 @@
                         <h3>Contact</h3>
                         <ul>
                             <li>Email: <a href="mailto:maikoabraham68@gmail.com">maikoabraham68@gmail.com</a></li>
-                            <li>LinkedIn: <a href="https://www.linkedin.com/in/abraham-kingoo-99875132a/" target="_blank">Abraham Maiko Kingoo</a></li>
-                            <li>GitHub: <a href="https://github.com/abrakingoo" target="_blank">abrakingoo</a></li>
+                            <li>LinkedIn: <a href="https://www.linkedin.com/in/abraham-kingoo-99875132a/" target="_blank" rel="noopener noreferrer">Abraham Maiko Kingoo</a></li>
+                            <li>GitHub: <a href="https://github.com/abrakingoo" target="_blank" rel="noopener noreferrer">abrakingoo</a></li>
                         </ul>
+                        <a href="#contact" class="btn-resume">Get In Touch</a>
                     </div>
                 </div>
             </div>
@@ -51,38 +87,70 @@
             <!-- Right side with portfolio content -->
             <div class="side_right">
                 <!-- About section -->
-                <div class="about_section">
+                <div class="about_section" id="about">
                     <h2>About Me</h2>
-                    <p>I'm a dedicated full-stack software engineer with a strong focus on backend 
-                        development. I specialize in building robust, scalable, and high-performance 
-                        systems while also mastering frontend technologies to create seamless end-to-end solutions.
-                         My passion for technology goes beyond writing code – it’s about crafting efficient, optimized 
-                         systems that deliver smooth, impactful user experiences. I thrive on tackling complex challenges 
-                         and am committed to continuously evolving in both backend and frontend development to build powerful 
-                         applications from the ground up.
+                    <p>I’m a full-stack software engineer with a strong focus on backend systems and scalable architecture. 
+                        I enjoy designing and building high-performance applications, paying close attention to clean code, 
+                        efficient data modeling, and well-structured APIs.
+
+                        While backend engineering is where I’m most comfortable, 
+                        I also work confidently across the frontend to deliver complete, 
+                        end-to-end solutions. I’m motivated by solving complex problems and 
+                        continuously refining the way systems are designed, built, and improved over time.
                     </p>
                 </div>
 
+                <!-- Experience & Education section -->
+                <div class="experience_section" id="experience">
+                    <h2>Experience & Education</h2>
+                    <div class="experience-item">
+                        <h3>Software Engineer</h3>
+                        <p class="company">Zone01 Kisumu</p>
+                        <p class="location">Kisumu, Kenya</p>
+                        <p class="description">Developing full-stack applications with focus on backend systems, scalable architecture, and API design. Working with modern technologies including Go, JavaScript, TypeScript, and various frameworks.</p>
+                    </div>
+                </div>
+
                 <!-- Skills section -->
-                <div class="skills_section">
+                <div class="skills_section" id="skills">
                     <div class="technical">
                         <h2>Tech Skills</h2>
                         <ul>
-                            <li><img src="https://img.icons8.com/?size=100&id=44442&format=png&color=000000" alt="" srcset="" loading="lazy" title="golang"></li>
-                            <li><img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" srcset="" loading="lazy" title="html5"></li>
-                            <li><img src="https://img.icons8.com/?size=100&id=3BTBsJs5myRy&format=png&color=000000" alt="" srcset="" loading="lazy" title="css"></li>
-                            <li><img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000" alt="" srcset="" loading="lazy" title="javaScript"></li>
-                            <li><img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="" srcset="" loading="lazy" title="git"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Java programming language" loading="lazy" title="Java"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=44442&format=png&color=000000" alt="Golang programming language" loading="lazy" title="Golang"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" alt="TypeScript programming language" loading="lazy" title="TypeScript"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000" alt="JavaScript programming language" loading="lazy" title="JavaScript"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="React framework" loading="lazy" title="React"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" alt="React Native framework" loading="lazy" title="React Native"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=71257&format=png&color=000000" alt="Angular framework" loading="lazy" title="Angular"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="Node.js runtime" loading="lazy" title="Node.js"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" alt="Express.js framework" loading="lazy" title="Express.js"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="Spring Boot framework" loading="lazy" title="Spring Boot"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=qV-JzWYl9dzP&format=png&color=000000" alt="Django framework" loading="lazy" title="Django"></li>
+                            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg" alt="Ruby on Rails framework" loading="lazy" title="Ruby on Rails" style="width: 100px; height: 100px;"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000" alt="Tailwind CSS framework" loading="lazy" title="Tailwind CSS"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML5 markup language" loading="lazy" title="HTML5"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=3BTBsJs5myRy&format=png&color=000000" alt="CSS styling language" loading="lazy" title="CSS"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000" alt="PostgreSQL database" loading="lazy" title="PostgreSQL"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=74402&format=png&color=000000" alt="MongoDB database" loading="lazy" title="MongoDB"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="Git version control" loading="lazy" title="Git"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000" alt="GitHub platform" loading="lazy" title="GitHub"></li>
+                            <li><img src="https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000" alt="Docker containerization" loading="lazy" title="Docker"></li>
                         </ul>
                     </div>
                     <div class="soft">
                         <h2 class="h4 skills-header">Soft Skills</h2>
                         <ul class="skills-list">
-                          <li>Communication |</li>
-                          <li>Teamwork |</li>
-                          <li>Self-planning |</li>
-                          <li>Critical Thinking |</li>
-                          <li>Problem Solving</li>
+                            <li>Software Architecture & System Design</li>
+                            <li>Backend Development & API Design</li>
+                            <li>Database Design & Data Modeling</li>
+                            <li>Authentication & Authorization</li>
+                            <li>Performance Optimization</li>
+                            <li>Scalable & Maintainable Code Practices</li>
+                            <li>Testing & Debugging</li>
+                            <li>Version Control & Collaborative Development</li>
+                            <li>Agile Methodologies</li>
+                            <li>Technical Communication</li>
                         </ul>
                     </div>
                 </div>
@@ -90,22 +158,29 @@
             </div>
         </div>        
         <!-- Projects section -->
-        <div class="projects_section">
+        <div class="projects_section" id="projects">
             <h2>Projects</h2>
-            <div class="project">
+            <!-- <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="go">Go</button>
+                <button class="filter-btn" data-filter="c">C</button>
+                <button class="filter-btn" data-filter="blockchain">Blockchain</button>
+            </div> -->
+            <div class="project" data-tech="go">
                 <div class="image img1">
-                    <h3>sKyMaLL</h3>
-                    <h3 style="font-style: italic;"><a href="https://skymall.onrender.com/"  target="_blank" class="prt_link">{LINK}</a></h3>
+                    <h3>skyMall</h3>
+                    <span class="project-date">2024</span>
+                    <h3 style="font-style: italic;"><a href="https://skymall.onrender.com/"  target="_blank" rel="noopener noreferrer" class="prt_link">View Live Demo</a></h3>
                 </div>
                 <div class="info">
-                    <p><strong>skymall</strong>  an end-to-end eCommerce platform, skyMaLL, 
+                    <p><strong>skyMall</strong> is an end-to-end eCommerce platform 
                         featuring a fully functional admin dashboard and real-time order tracking. 
                         Users can easily browse products, place orders, and track shipments, 
                         creating a seamless shopping experience. 
                         The admin dashboard allows for easy management of products, customer orders, 
                         and inventory. Built using Go (Golang) for the backend, 
                         JavaScript for frontend interactions, and SQL for database management, 
-                        skyMaLL ensures a smooth, secure, and scalable solution for both customers
+                        skyMall ensures a smooth, secure, and scalable solution for both customers
                          and admins.
                     </p>
                     <div class="techs">
@@ -123,10 +198,11 @@
                     </div>
                 </div>
             </div>
-            <div class="project">
+            <div class="project" data-tech="go">
                 <div class="image img2">
                     <h3>Groupie Tracker</h3>
-                    <h3 style="font-style: italic;"><a href="https://groupie-tracker-production-1f5b.up.railway.app"  target="_blank" class="prt_link">{LINK}</a></h3>
+                    <span class="project-date">2024</span>
+                    <h3 style="font-style: italic;"><a href="https://groupie-tracker-production-1f5b.up.railway.app"  target="_blank" rel="noopener noreferrer" class="prt_link">View Live Demo</a></h3>
                 </div>
                 <div class="info">
                     <p><strong>Groupie Trackers</strong> is a dynamic web application that connects with a given API 
@@ -147,10 +223,11 @@
                     </div>
                 </div>
             </div>
-            <div class="project">
+            <div class="project" data-tech="c">
                 <div class="image img3">
                     <h3>ATM Management System</h3>
-                    <h3 style="font-style: italic;"><a href="https://learn.zone01kisumu.ke/git/abrakingoo/atm-management-system.git" class="prt_link" target="_blank">{LINK}</a></h3>
+                    <span class="project-date">2024</span>
+                    <h3 style="font-style: italic;"><a href="https://learn.zone01kisumu.ke/git/abrakingoo/atm-management-system.git" class="prt_link" target="_blank" rel="noopener noreferrer">View Code</a></h3>
                 </div>
                 <div class="info">
                     <p>The <strong>ATM Management System</strong> is a console-based application designed to manage user accounts, 
@@ -171,10 +248,11 @@
                     </div>
                 </div>
             </div>
-            <div class="project">
+            <div class="project" data-tech="go blockchain">
                 <div class="image img5">
                     <h3>Tessa Fin Bridge</h3>
-                    <h3 style="font-style: italic;"><a href="https://tesaa-production.up.railway.app/"  target="_blank" class="prt_link">{LINK}</a></h3>
+                    <span class="project-date">2024</span>
+                    <h3 style="font-style: italic;"><a href="https://tesaa-production.up.railway.app/"  target="_blank" rel="noopener noreferrer" class="prt_link">View Live Demo</a></h3>
                 </div>
                 <div class="info">
                     <p><strong>Tessa Fin Bridge</strong>  is a blockchain-powered platform designed to decentralize 
@@ -197,10 +275,11 @@
                     </div>
                 </div>
             </div>
-            <div class="project">
+            <div class="project" data-tech="go">
                 <div class="image img4">
                     <h3>Net-Cat (TCP Chat Application)</h3>
-                    <h3 style="font-style: italic;"><a href="https://learn.zone01kisumu.ke/git/abrakingoo/net-cat.git" class="prt_link" target="_blank">{LINK}</a></h3>
+                    <span class="project-date">2024</span>
+                    <h3 style="font-style: italic;"><a href="https://learn.zone01kisumu.ke/git/abrakingoo/net-cat.git" class="prt_link" target="_blank" rel="noopener noreferrer">View Code</a></h3>
                 </div>
                 <div class="info">
                     <p>The <strong>Net-Cat</strong> project is a recreation of the classic NetCat tool in a server-client architecture, 
@@ -221,17 +300,33 @@
                 </div>
             </div>
         </div>
-        <section class="contact-form">
-            <h3 class="form-title">Contact Me</h3>
-            <dir>
-                <p>Feel free to reach out via email:</p>
-                <a href="mailto:maikoabraham68@gmail.com" class="contact-email" style="color: white; margin: auto;">maikoabraham68@gmail.com</a>
-            </dir>
-          </section>
+        <section class="contact-form" id="contact">
+            <h2 class="contact-title">Let's Connect</h2>
+            <p class="contact-subtitle">Have a project in mind or want to collaborate? I'd love to hear from you!</p>
+            <div class="contact-content">
+                <div class="contact-methods">
+                    <a href="mailto:maikoabraham68@gmail.com" class="contact-card email-card">
+                        <span class="contact-icon">✉️</span>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">maikoabraham68@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abraham-kingoo-99875132a/" target="_blank" rel="noopener noreferrer" class="contact-card linkedin-card">
+                        <span class="contact-icon">💼</span>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">Abraham Maiko Kingoo</span>
+                    </a>
+                    <a href="https://github.com/abrakingoo" target="_blank" rel="noopener noreferrer" class="contact-card github-card">
+                        <span class="contact-icon">💻</span>
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">@abrakingoo</span>
+                    </a>
+                </div>
+            </div>
+        </section>
           
         <!-- Bottom section for footer -->
         <div class="bottom">
-            <p>&copy; 2024 Abraham Kingoo. All Rights Reserved.</p>
+            <p>&copy; 2026 Abraham Kingoo. All Rights Reserved.</p>
         </div>
     </div>
 </body>
