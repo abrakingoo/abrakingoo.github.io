@@ -159,143 +159,101 @@
         </div>        
         <!-- Projects section -->
         <div class="projects_section" id="projects">
-            <h2>Projects</h2>
-            <!-- <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="go">Go</button>
-                <button class="filter-btn" data-filter="c">C</button>
-                <button class="filter-btn" data-filter="blockchain">Blockchain</button>
-            </div> -->
-            <div class="project" data-tech="go">
-                <div class="image img1">
-                    <h3>skyMall</h3>
-                    <span class="project-date">2024</span>
-                    <h3 style="font-style: italic;"><a href="https://skymall.onrender.com/"  target="_blank" rel="noopener noreferrer" class="prt_link">View Live Demo</a></h3>
-                </div>
-                <div class="info">
-                    <p><strong>skyMall</strong> is an end-to-end eCommerce platform 
-                        featuring a fully functional admin dashboard and real-time order tracking. 
-                        Users can easily browse products, place orders, and track shipments, 
-                        creating a seamless shopping experience. 
-                        The admin dashboard allows for easy management of products, customer orders, 
-                        and inventory. Built using Go (Golang) for the backend, 
-                        JavaScript for frontend interactions, and SQL for database management, 
-                        skyMall ensures a smooth, secure, and scalable solution for both customers
-                         and admins.
-                    </p>
-                    <div class="techs">
-                        <h4>Technology Stack</h4>
-                        <ul>
-                            <li>Frontend: HTML, CSS, and JavaScript</li>
-                            <li>Backend/Server-side: Developed in Go</li>
-                            <li>Data Format: Utilizes JSON to parse and manipulate data received from the API.</li>
-                        </ul>
-                        <p>
-                            This project enhances my skills in data manipulation, client-server interaction, 
-                            and API-driven development, with a focus on delivering a seamless, 
-                            interactive platform for shopping.
-                        </p>
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-tech="go">
+                    <div class="project-image img1"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>skyMall</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">Full-stack eCommerce platform with admin dashboard and real-time order tracking. Built with Go, JavaScript, and SQL for seamless shopping experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">Go</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">eCommerce</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://skymall.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn-primary">Live Demo</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project" data-tech="go">
-                <div class="image img2">
-                    <h3>Groupie Tracker</h3>
-                    <span class="project-date">2024</span>
-                    <h3 style="font-style: italic;"><a href="https://groupie-tracker-production-1f5b.up.railway.app"  target="_blank" rel="noopener noreferrer" class="prt_link">View Live Demo</a></h3>
-                </div>
-                <div class="info">
-                    <p><strong>Groupie Trackers</strong> is a dynamic web application that connects with a given API 
-                        to retrieve and display detailed information about various bands and artists.
-                    </p>
-                    <div class="techs">
-                        <h4>Technology Stack</h4>
-                        <ul>
-                            <li>Frontend: HTML, CSS, and JavaScript</li>
-                            <li>Backend/Server-side: Developed in Go</li>
-                            <li>Data Format: Utilizes JSON to parse and manipulate data received from the API.</li>
-                        </ul>
-                        <p>
-                            This project enhances my skills in data manipulation, client-server interaction, 
-                            and API-driven development, with a focus on delivering a seamless, 
-                            interactive platform for music enthusiasts.
-                        </p>
+
+                <div class="project-card" data-tech="go">
+                    <div class="project-image img2"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Groupie Tracker</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">Dynamic web application that retrieves and displays detailed information about bands and artists using API integration.</p>
+                        <div class="project-tags">
+                            <span class="tag">Go</span>
+                            <span class="tag">API</span>
+                            <span class="tag">JSON</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://groupie-tracker-production-1f5b.up.railway.app" target="_blank" rel="noopener noreferrer" class="btn-primary">Live Demo</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project" data-tech="c">
-                <div class="image img3">
-                    <h3>ATM Management System</h3>
-                    <span class="project-date">2024</span>
-                    <h3 style="font-style: italic;"><a href="https://learn.zone01kisumu.ke/git/abrakingoo/atm-management-system.git" class="prt_link" target="_blank" rel="noopener noreferrer">View Code</a></h3>
-                </div>
-                <div class="info">
-                    <p>The <strong>ATM Management System</strong> is a console-based application designed to manage user accounts, 
-                        transactions, and account ownership. This project emphasizes core programming logic, 
-                        file handling, and data structure manipulation in C. 
-                    </p>
-                    <div class="techs">
-                        <h4>Technology Stack</h4>
-                        <ul>
-                            <li>Programming Language: C, focusing on low-level programming logic and memory management.</li>
-                            <li>File Handling: Utilizes file-based data storage to manage users and account information (stored in .txt files).</li>
-                            <li>Terminal UI: Command-line interface for smooth interaction, with potential for future TUI improvements.</li>
-                        </ul>
-                        <p>
-                            This project builds essential skills in C, including data manipulation, file I/O, 
-                            data structures, memory management, and secure programming practices.
-                        </p>
+
+                <div class="project-card" data-tech="c">
+                    <div class="project-image img3"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>ATM Management System</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">Console-based banking application emphasizing core programming logic, file handling, and data structure manipulation in C.</p>
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">File I/O</span>
+                            <span class="tag">Data Structures</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://learn.zone01kisumu.ke/git/abrakingoo/atm-management-system.git" target="_blank" rel="noopener noreferrer" class="btn-secondary">View Code</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project" data-tech="go blockchain">
-                <div class="image img5">
-                    <h3>Tessa Fin Bridge</h3>
-                    <span class="project-date">2024</span>
-                    <h3 style="font-style: italic;"><a href="https://tesaa-production.up.railway.app/"  target="_blank" rel="noopener noreferrer" class="prt_link">View Live Demo</a></h3>
-                </div>
-                <div class="info">
-                    <p><strong>Tessa Fin Bridge</strong>  is a blockchain-powered platform designed to decentralize 
-                        access to financial resources for small business owners. The project empowers entrepreneurs
-                         by providing a secure, transparent, and equitable way to secure funding, enabling them to 
-                         turn their visions into reality without the constraints of traditional financing. 
-                    </p>
-                    <div class="techs">
-                        <h4>Technology Stack</h4>
-                        <ul>
-                            <li>Frontend: HTML, CSS, and JavaScript</li>
-                            <li>Backend/Server-side: Developed in Go</li>
-                            <li>Blockchain: Core to decentralization and secure transactions.</li>
-                            <li>Concurrency with Goroutines and Channels: Ensures efficient handling of multiple client connections and message broadcasting using goroutines and channels</li>
-                        </ul>
-                        <p>
-                            This project strengthens your understanding of network programming, Go concurrency, and real-time systems, 
-                            providing a robust example of how TCP connections and socket programming can be applied in a practical, user-friendly application.
-                        </p>
+
+                <div class="project-card" data-tech="go blockchain">
+                    <div class="project-image img5"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Tessa Fin Bridge</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">Blockchain-powered platform decentralizing access to financial resources for small business owners with secure, transparent funding.</p>
+                        <div class="project-tags">
+                            <span class="tag">Go</span>
+                            <span class="tag">Blockchain</span>
+                            <span class="tag">Fintech</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://tesaa-production.up.railway.app/" target="_blank" rel="noopener noreferrer" class="btn-primary">Live Demo</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project" data-tech="go">
-                <div class="image img4">
-                    <h3>Net-Cat (TCP Chat Application)</h3>
-                    <span class="project-date">2024</span>
-                    <h3 style="font-style: italic;"><a href="https://learn.zone01kisumu.ke/git/abrakingoo/net-cat.git" class="prt_link" target="_blank" rel="noopener noreferrer">View Code</a></h3>
-                </div>
-                <div class="info">
-                    <p>The <strong>Net-Cat</strong> project is a recreation of the classic NetCat tool in a server-client architecture, 
-                        allowing for real-time group chat functionality over TCP. This application, developed in Go. 
-                    </p>
-                    <div class="techs">
-                        <h4>Technology Stack</h4>
-                        <ul>
-                            <li>Programming Language: Written in Go.</li>
-                            <li>Concurrency with Goroutines and Channels: Ensures efficient handling of multiple client connections and message broadcasting using goroutines and channels</li>
-                            <li>Mutex for Synchronization: Protects shared resources, ensuring data integrity and smooth chat operation.</li>
-                        </ul>
-                        <p>
-                            This project strengthens your understanding of network programming, Go concurrency, and real-time systems, 
-                            providing a robust example of how TCP connections and socket programming can be applied in a practical, user-friendly application.
-                        </p>
+
+                <div class="project-card" data-tech="go">
+                    <div class="project-image img4"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Net-Cat</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">TCP-based real-time chat application with server-client architecture, utilizing Go concurrency with goroutines and channels.</p>
+                        <div class="project-tags">
+                            <span class="tag">Go</span>
+                            <span class="tag">TCP</span>
+                            <span class="tag">Concurrency</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://learn.zone01kisumu.ke/git/abrakingoo/net-cat.git" target="_blank" rel="noopener noreferrer" class="btn-secondary">View Code</a>
+                        </div>
                     </div>
                 </div>
             </div>
