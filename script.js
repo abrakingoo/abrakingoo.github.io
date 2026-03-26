@@ -71,12 +71,30 @@ function animateOnScroll() {
     });
 }
 
+// See more / See less toggle for project descriptions
+function initSeeMore() {
+    document.querySelectorAll('.project-description').forEach(desc => {
+        if (desc.scrollHeight > desc.clientHeight) {
+            const btn = document.createElement('button');
+            btn.className = 'see-more-btn';
+            btn.textContent = '...see more';
+            desc.after(btn);
+
+            btn.addEventListener('click', () => {
+                const expanded = desc.classList.toggle('expanded');
+                btn.textContent = expanded ? 'see less' : '...see more';
+            });
+        }
+    });
+}
+
 // Initialize on page load
 window.onload = () => {
     animateOnScroll();
     initSmoothScroll();
     initThemeToggle();
     initProjectFilters();
+    initSeeMore();
 };
 
 // Smooth scroll for navigation links

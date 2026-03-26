@@ -651,6 +651,12 @@ h1 {
     background-size: cover;
     background-position: center;
     position: relative;
+    transition: background-size 0.5s ease;
+    overflow: hidden;
+}
+
+.project-card:hover .project-image {
+    background-size: 115%;
 }
 
 .project-image::after {
@@ -702,6 +708,37 @@ h1 {
     line-height: 1.6;
     font-size: 0.95rem;
     margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.project-description.expanded {
+    display: block;
+    -webkit-line-clamp: unset;
+    overflow: visible;
+}
+
+.see-more-btn {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 2px;
+    transition: var(--transition);
+    font-family: var(--font-main);
+    display: inline;
+    opacity: 0.85;
+}
+
+.see-more-btn:hover {
+    color: white;
+    opacity: 1;
 }
 
 .project-tags {
@@ -803,6 +840,13 @@ h1 {
 
 .img7 {
     background: url("./img/chichwa.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img8 {
+    background: url("./img/homePage.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
