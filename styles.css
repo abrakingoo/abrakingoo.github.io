@@ -794,6 +794,13 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.img6 {
+    background: url("./img/bongohub.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .prt_link {
     text-decoration: none;
     color: var(--accent-primary);
