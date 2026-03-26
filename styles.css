@@ -801,6 +801,13 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.img7 {
+    background: url("./img/chichwa.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .prt_link {
     text-decoration: none;
     color: var(--accent-primary);
