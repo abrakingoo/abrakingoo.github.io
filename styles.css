@@ -852,6 +852,13 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.img9 {
+    background: url("./img/naiks_bakery_home.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .prt_link {
     text-decoration: none;
     color: var(--accent-primary);
